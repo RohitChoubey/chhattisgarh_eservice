@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.table-bordered {
+  border: 1px solid #ddd;
+  border-collapse: separate;
+  *border-collapse: collapse;
+  border-left: 1;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+table {
+  max-width: 100%;
+  background-color: transparent;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+user agent stylesheet
+table {
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  border-spacing: 2px;
+  border-color: grey;
+}
+.breadcrumb {
+  padding: 8px 15px !important;
+  margin: 0 0 20px !important;
+  list-style: none !important;
+  background-color: #f5f5f5 !important;
+  -webkit-border-radius: 4px !important;
+  -moz-border-radius: 4px !important;
+  border-radius: 4px !important;
+}
+a, a:hover, .sidebar-nav ul > li > a, .sidebar-nav ul > li > a:hover, .summary-number {
+  color: #1d2e7b !important;
+}
+h1 small {
+  font-size: 24px;
+}
+
+.span3{
+  float: none;
+  width: 204px;
+  margin-left: 0;
+  background-color: #f6f4f4 !important; 
+}
+.gisindex_table_380px{
+  margin-left: 155px;
+    width: 70%;
+}
+@media (min-width:200px) and (max-width: 900px){
+  .gisindex_table_380px{
+    margin-left: 30px;
+    width: 86%;
+  }
+}
+
+.view_user_table_380px{
+  margin-left: 155px;
+  width: 90%;
+}
+
+@media (min-width:200px) and (max-width: 900px) or (max-width:481px ){
+  .view_user_table_380px{
+    margin-left: 30px;
+    
+  }
+}
+/* body {
+    font-size: 12px;
+    padding-bottom: 40px;
+} */
+
