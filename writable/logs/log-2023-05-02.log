@@ -1,0 +1,8 @@
+CRITICAL - 2023-05-02 09:13:22 --> json_decode() expects parameter 1 to be string, array given
+in APPPATH/Controllers/FellingTree.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/FellingTree.php(25): json_decode()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()

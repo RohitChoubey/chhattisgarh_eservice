@@ -1,0 +1,196 @@
+CRITICAL - 2023-05-10 07:48:09 --> Invalid argument supplied for foreach()
+in APPPATH/Controllers/FellingTree.php on line 64.
+ 1 APPPATH/Controllers/FellingTree.php(64): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 07:53:01 --> Call to undefined method App\Controllers\FellingTree::join()
+in APPPATH/Controllers/FellingTree.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 08:37:46 --> Call to undefined method App\Controllers\FellingTree::join()
+in APPPATH/Controllers/FellingTree.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 08:39:50 --> Trait 'App\Controllers\HasFactory' not found
+in APPPATH/Controllers/FellingTree.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-10 08:41:02 --> Call to undefined method App\Controllers\FellingTree::join()
+in APPPATH/Controllers/FellingTree.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 11:34:33 --> mysqli_sql_exception: Not unique table/alias: 'felling_trees' in /var/www/html/eservices/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/html/eservices/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/html/eservices/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/eservices/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/eservices/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/eservices/system/Model.php(840): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/eservices/app/Controllers/FellingTree.php(23): CodeIgniter\Model->__call()
+#6 /var/www/html/eservices/system/CodeIgniter.php(934): App\Controllers\FellingTree->index()
+#7 /var/www/html/eservices/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/eservices/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/eservices/index.php(68): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-10 11:34:33 --> Not unique table/alias: 'felling_trees'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(840): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/FellingTree.php(23): CodeIgniter\Model->__call()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-10 11:34:39 --> mysqli_sql_exception: Not unique table/alias: 'felling_trees' in /var/www/html/eservices/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/html/eservices/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/html/eservices/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/eservices/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/eservices/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/eservices/system/Model.php(840): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/eservices/app/Controllers/FellingTree.php(23): CodeIgniter\Model->__call()
+#6 /var/www/html/eservices/system/CodeIgniter.php(934): App\Controllers\FellingTree->index()
+#7 /var/www/html/eservices/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/eservices/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/eservices/index.php(68): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-10 11:34:39 --> Not unique table/alias: 'felling_trees'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(840): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/FellingTree.php(23): CodeIgniter\Model->__call()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 11:35:05 --> Call to undefined method App\Controllers\FellingTree::select()
+in APPPATH/Controllers/FellingTree.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 12:40:32 --> Undefined variable: data
+in APPPATH/Controllers/FellingTree.php on line 33.
+ 1 APPPATH/Controllers/FellingTree.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 12:40:32 --> Undefined variable: data
+in APPPATH/Controllers/FellingTree.php on line 33.
+ 1 APPPATH/Controllers/FellingTree.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 12:41:48 --> Undefined variable: data
+in APPPATH/Controllers/FellingTree.php on line 33.
+ 1 APPPATH/Controllers/FellingTree.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 12:41:49 --> Undefined variable: data
+in APPPATH/Controllers/FellingTree.php on line 33.
+ 1 APPPATH/Controllers/FellingTree.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 12:41:54 --> Undefined variable: data
+in APPPATH/Controllers/FellingTree.php on line 33.
+ 1 APPPATH/Controllers/FellingTree.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 12:41:54 --> Undefined variable: data
+in APPPATH/Controllers/FellingTree.php on line 33.
+ 1 APPPATH/Controllers/FellingTree.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 12:42:12 --> Undefined variable: data
+in APPPATH/Controllers/FellingTree.php on line 33.
+ 1 APPPATH/Controllers/FellingTree.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 12:42:12 --> Undefined variable: data
+in APPPATH/Controllers/FellingTree.php on line 33.
+ 1 APPPATH/Controllers/FellingTree.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 12:44:39 --> Undefined variable: data
+in APPPATH/Controllers/FellingTree.php on line 33.
+ 1 APPPATH/Controllers/FellingTree.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 12:44:39 --> Undefined variable: data
+in APPPATH/Controllers/FellingTree.php on line 33.
+ 1 APPPATH/Controllers/FellingTree.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 12:44:48 --> Undefined variable: data
+in APPPATH/Controllers/FellingTree.php on line 33.
+ 1 APPPATH/Controllers/FellingTree.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 12:44:48 --> Undefined variable: data
+in APPPATH/Controllers/FellingTree.php on line 33.
+ 1 APPPATH/Controllers/FellingTree.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 12:45:36 --> Undefined variable: data
+in APPPATH/Controllers/FellingTree.php on line 33.
+ 1 APPPATH/Controllers/FellingTree.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 12:45:36 --> Undefined variable: data
+in APPPATH/Controllers/FellingTree.php on line 33.
+ 1 APPPATH/Controllers/FellingTree.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 12:45:41 --> Undefined variable: data
+in APPPATH/Controllers/FellingTree.php on line 33.
+ 1 APPPATH/Controllers/FellingTree.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 12:45:41 --> Undefined variable: data
+in APPPATH/Controllers/FellingTree.php on line 33.
+ 1 APPPATH/Controllers/FellingTree.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()

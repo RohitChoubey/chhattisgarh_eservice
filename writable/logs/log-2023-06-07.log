@@ -1,0 +1,257 @@
+CRITICAL - 2023-06-07 11:22:24 --> Call to a member function move() on string
+in APPPATH/Controllers/FellingTree.php on line 50.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 11:23:12 --> Trying to get property 'upload' of non-object
+in APPPATH/Controllers/FellingTree.php on line 50.
+ 1 APPPATH/Controllers/FellingTree.php(50): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 11:27:04 --> Undefined property: App\Controllers\FellingTree::$upload
+in APPPATH/Controllers/FellingTree.php on line 57.
+ 1 APPPATH/Controllers/FellingTree.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 11:27:27 --> Call to undefined method App\Controllers\FellingTree::do_upload()
+in APPPATH/Controllers/FellingTree.php on line 57.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 11:27:52 --> Trying to get property 'upload' of non-object
+in APPPATH/Controllers/FellingTree.php on line 57.
+ 1 APPPATH/Controllers/FellingTree.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 11:28:04 --> Call to a member function do_upload() on string
+in APPPATH/Controllers/FellingTree.php on line 57.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 11:33:00 --> Call to a member function move() on string
+in APPPATH/Controllers/FellingTree.php on line 60.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 11:33:18 --> Call to a member function move() on string
+in APPPATH/Controllers/FellingTree.php on line 60.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 11:36:27 --> Undefined variable: request
+in APPPATH/Controllers/FellingTree.php on line 44.
+ 1 APPPATH/Controllers/FellingTree.php(44): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 11:37:26 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::file()
+in APPPATH/Controllers/FellingTree.php on line 44.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 11:45:46 --> Call to a member function move() on string
+in APPPATH/Controllers/FellingTree.php on line 60.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 12:11:15 --> Call to a member function move() on string
+in APPPATH/Controllers/FellingTree.php on line 59.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 12:13:30 --> Call to a member function move() on string
+in APPPATH/Controllers/FellingTree.php on line 59.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 12:18:00 --> Undefined index: khasra
+in APPPATH/Controllers/FellingTree.php on line 45.
+ 1 APPPATH/Controllers/FellingTree.php(45): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 12:19:00 --> Undefined index: khasra
+in APPPATH/Controllers/FellingTree.php on line 45.
+ 1 APPPATH/Controllers/FellingTree.php(45): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 12:19:43 --> Undefined index: khasra
+in APPPATH/Controllers/FellingTree.php on line 56.
+ 1 APPPATH/Controllers/FellingTree.php(56): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 12:20:05 --> Illegal offset type
+in APPPATH/Controllers/FellingTree.php on line 56.
+ 1 APPPATH/Controllers/FellingTree.php(56): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 12:21:27 --> Undefined index: khasra
+in APPPATH/Controllers/FellingTree.php on line 45.
+ 1 APPPATH/Controllers/FellingTree.php(45): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 12:21:40 --> Undefined index: khasra
+in APPPATH/Controllers/FellingTree.php on line 59.
+ 1 APPPATH/Controllers/FellingTree.php(59): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 12:22:45 --> Undefined index: khasra
+in APPPATH/Controllers/FellingTree.php on line 45.
+ 1 APPPATH/Controllers/FellingTree.php(45): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 12:22:55 --> Undefined index: params
+in APPPATH/Controllers/FellingTree.php on line 49.
+ 1 APPPATH/Controllers/FellingTree.php(49): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 12:23:19 --> Illegal offset type
+in APPPATH/Controllers/FellingTree.php on line 49.
+ 1 APPPATH/Controllers/FellingTree.php(49): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 12:31:01 --> Undefined index: khasra
+in APPPATH/Controllers/FellingTree.php on line 48.
+ 1 APPPATH/Controllers/FellingTree.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 12:32:42 --> Illegal offset type
+in APPPATH/Controllers/FellingTree.php on line 48.
+ 1 APPPATH/Controllers/FellingTree.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 12:33:35 --> Undefined index: khasra
+in APPPATH/Controllers/FellingTree.php on line 48.
+ 1 APPPATH/Controllers/FellingTree.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 12:34:30 --> Undefined index: name
+in APPPATH/Controllers/FellingTree.php on line 48.
+ 1 APPPATH/Controllers/FellingTree.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 12:34:49 --> Undefined index: fellingTreeData
+in APPPATH/Controllers/FellingTree.php on line 48.
+ 1 APPPATH/Controllers/FellingTree.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 12:35:12 --> Undefined index: fellingTreeData
+in APPPATH/Controllers/FellingTree.php on line 48.
+ 1 APPPATH/Controllers/FellingTree.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 12:38:17 --> Undefined index: khasra
+in APPPATH/Controllers/FellingTree.php on line 48.
+ 1 APPPATH/Controllers/FellingTree.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 12:40:11 --> Undefined index: khasra
+in APPPATH/Controllers/FellingTree.php on line 61.
+ 1 APPPATH/Controllers/FellingTree.php(61): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 12:42:36 --> Undefined variable: _FILE
+in APPPATH/Controllers/FellingTree.php on line 46.
+ 1 APPPATH/Controllers/FellingTree.php(46): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 12:48:09 --> Undefined index: params
+in APPPATH/Controllers/FellingTree.php on line 46.
+ 1 APPPATH/Controllers/FellingTree.php(46): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 12:48:21 --> Illegal offset type
+in APPPATH/Controllers/FellingTree.php on line 46.
+ 1 APPPATH/Controllers/FellingTree.php(46): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 12:54:51 --> Undefined index: fellingTreeData
+in APPPATH/Controllers/FellingTree.php on line 46.
+ 1 APPPATH/Controllers/FellingTree.php(46): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 12:56:30 --> Undefined index: fellingTreeData
+in APPPATH/Controllers/FellingTree.php on line 46.
+ 1 APPPATH/Controllers/FellingTree.php(46): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 12:57:08 --> Undefined index: fellingTreeData
+in APPPATH/Controllers/FellingTree.php on line 46.
+ 1 APPPATH/Controllers/FellingTree.php(46): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 13:27:40 --> Undefined index: fellingTreeData
+in APPPATH/Controllers/FellingTree.php on line 46.
+ 1 APPPATH/Controllers/FellingTree.php(46): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 13:28:13 --> Undefined index: khasra
+in APPPATH/Controllers/FellingTree.php on line 46.
+ 1 APPPATH/Controllers/FellingTree.php(46): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()

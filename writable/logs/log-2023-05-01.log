@@ -1,0 +1,28 @@
+CRITICAL - 2023-05-01 12:16:36 --> Trying to get property 'natural_tree_details' of non-object
+in APPPATH/Controllers/FellingTree.php on line 19.
+ 1 APPPATH/Controllers/FellingTree.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-01 12:16:45 --> Trying to get property 'natural_tree_details' of non-object
+in APPPATH/Controllers/FellingTree.php on line 19.
+ 1 APPPATH/Controllers/FellingTree.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-01 12:17:03 --> Trying to get property 'natural_tree_details' of non-object
+in APPPATH/Controllers/FellingTree.php on line 19.
+ 1 APPPATH/Controllers/FellingTree.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-01 12:17:39 --> Trying to get property 'natural_tree_details' of non-object
+in APPPATH/Controllers/FellingTree.php on line 19.
+ 1 APPPATH/Controllers/FellingTree.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()

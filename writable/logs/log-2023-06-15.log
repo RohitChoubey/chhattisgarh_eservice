@@ -1,0 +1,14 @@
+CRITICAL - 2023-06-15 05:28:28 --> Array to string conversion
+in APPPATH/Controllers/FellingTree.php on line 159.
+ 1 APPPATH/Controllers/FellingTree.php(159): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->uploadTreeFellingDocument()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-15 06:19:42 --> Undefined index: khasra
+in APPPATH/Controllers/FellingTree.php on line 109.
+ 1 APPPATH/Controllers/FellingTree.php(109): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->uploadTreeFellingDocument()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()

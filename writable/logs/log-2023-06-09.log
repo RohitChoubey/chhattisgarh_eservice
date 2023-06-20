@@ -1,0 +1,152 @@
+CRITICAL - 2023-06-09 05:30:13 --> Undefined property: App\Controllers\FellingTree::$plantesTreeModel
+in APPPATH/Controllers/FellingTree.php on line 85.
+ 1 APPPATH/Controllers/FellingTree.php(85): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 07:15:26 --> Class 'App\Controllers\File' not found
+in APPPATH/Controllers/FellingTree.php on line 114.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->uploadTreeFellingDocument()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 07:56:45 --> Undefined property: App\Controllers\FellingTree::$upload
+in APPPATH/Controllers/FellingTree.php on line 118.
+ 1 APPPATH/Controllers/FellingTree.php(118): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->uploadTreeFellingDocument()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 07:57:14 --> Call to undefined method App\Controllers\FellingTree::move()
+in APPPATH/Controllers/FellingTree.php on line 118.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->uploadTreeFellingDocument()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 07:58:21 --> Could not move file "phpQANab1" to "/var/www/html/eservices/writable/../asset/treeFellingfiles/". Reason: 
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 149.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed()
+ 2 APPPATH/Controllers/FellingTree.php(118): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->uploadTreeFellingDocument()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 07:59:11 --> Undefined variable: data
+in APPPATH/Controllers/FellingTree.php on line 120.
+ 1 APPPATH/Controllers/FellingTree.php(120): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->uploadTreeFellingDocument()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 09:52:36 --> mkdir(): Permission denied
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 176.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/HTTP/Files/UploadedFile.php(176): mkdir()
+ 3 SYSTEMPATH/HTTP/Files/UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath()
+ 4 APPPATH/Controllers/FellingTree.php(119): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->uploadTreeFellingDocument()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 09:53:19 --> mkdir(): Permission denied
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 176.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/HTTP/Files/UploadedFile.php(176): mkdir()
+ 3 SYSTEMPATH/HTTP/Files/UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath()
+ 4 APPPATH/Controllers/FellingTree.php(119): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->uploadTreeFellingDocument()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 09:54:38 --> mkdir(): Permission denied
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 176.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/HTTP/Files/UploadedFile.php(176): mkdir()
+ 3 SYSTEMPATH/HTTP/Files/UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath()
+ 4 APPPATH/Controllers/FellingTree.php(119): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->uploadTreeFellingDocument()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 11:04:01 --> Call to a member function hasMoved() on array
+in APPPATH/Controllers/FellingTree.php on line 114.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->uploadTreeFellingDocument()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 11:04:32 --> Call to a member function getRandomName() on array
+in APPPATH/Controllers/FellingTree.php on line 115.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->uploadTreeFellingDocument()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 11:05:10 --> Call to a member function hasMoved() on array
+in APPPATH/Controllers/FellingTree.php on line 115.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->uploadTreeFellingDocument()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 11:05:44 --> Call to a member function getRandomName() on array
+in APPPATH/Controllers/FellingTree.php on line 114.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->uploadTreeFellingDocument()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 11:06:34 --> explode() expects parameter 2 to be string, array given
+in APPPATH/Controllers/FellingTree.php on line 114.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/FellingTree.php(114): explode()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->uploadTreeFellingDocument()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 11:07:18 --> Call to a member function move() on array
+in APPPATH/Controllers/FellingTree.php on line 119.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->uploadTreeFellingDocument()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 11:07:49 --> Call to a member function move() on array
+in APPPATH/Controllers/FellingTree.php on line 119.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->uploadTreeFellingDocument()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 11:08:22 --> Undefined variable: fileNamem
+in APPPATH/Controllers/FellingTree.php on line 118.
+ 1 APPPATH/Controllers/FellingTree.php(118): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->uploadTreeFellingDocument()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 11:08:53 --> Call to a member function move() on string
+in APPPATH/Controllers/FellingTree.php on line 119.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->uploadTreeFellingDocument()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 11:14:05 --> move_uploaded_file(20230609111405cdd5b721a7.jpg): failed to open stream: Permission denied
+in APPPATH/Controllers/FellingTree.php on line 119.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/FellingTree.php(119): move_uploaded_file()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->uploadTreeFellingDocument()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 11:16:18 --> move_uploaded_file(): The second argument to copy() function cannot be a directory
+in APPPATH/Controllers/FellingTree.php on line 119.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/FellingTree.php(119): move_uploaded_file()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->uploadTreeFellingDocument()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-09 11:19:50 --> move_uploaded_file(asset/treeFaikingfiles/pic.jpg): failed to open stream: No such file or directory
+in APPPATH/Controllers/FellingTree.php on line 121.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/FellingTree.php(121): move_uploaded_file()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->uploadTreeFellingDocument()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()

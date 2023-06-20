@@ -1,0 +1,147 @@
+CRITICAL - 2023-06-19 05:54:21 --> json_decode() expects parameter 1 to be string, object given
+in APPPATH/Controllers/FellingTree.php on line 235.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/FellingTree.php(235): json_decode()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->inspectionReportAction()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-19 06:26:23 --> Illegal string offset 'range_name'
+in APPPATH/Controllers/FellingTree.php on line 239.
+ 1 APPPATH/Controllers/FellingTree.php(239): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->inspectionReportAction()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-19 06:26:48 --> Use of undefined constant range_name - assumed 'range_name' (this will throw an Error in a future version of PHP)
+in APPPATH/Controllers/FellingTree.php on line 239.
+ 1 APPPATH/Controllers/FellingTree.php(239): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->inspectionReportAction()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-19 06:40:38 --> Undefined variable: db
+in APPPATH/Controllers/FellingTree.php on line 243.
+ 1 APPPATH/Controllers/FellingTree.php(243): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->inspectionReportAction()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-19 06:51:34 --> There is no data to insert.
+in SYSTEMPATH/BaseModel.php on line 762.
+ 1 SYSTEMPATH/BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert()
+ 3 APPPATH/Controllers/FellingTree.php(246): CodeIgniter\Model->insert()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->inspectionReportAction()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-19 06:58:29 --> Object of class stdClass could not be converted to string
+in APPPATH/Controllers/FellingTree.php on line 248.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->inspectionReportAction()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-19 07:22:39 --> Cannot access protected property CodeIgniter\HTTP\Files\UploadedFile::$originalName
+in APPPATH/Controllers/FellingTree.php on line 239.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->inspectionReportAction()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-19 07:23:27 --> Cannot access protected property CodeIgniter\HTTP\Files\UploadedFile::$name
+in APPPATH/Controllers/FellingTree.php on line 239.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->inspectionReportAction()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-19 07:25:07 --> Call to undefined method CodeIgniter\HTTP\Files\UploadedFile::date()
+in APPPATH/Controllers/FellingTree.php on line 246.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->inspectionReportAction()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-19 07:25:42 --> Undefined property: CodeIgniter\HTTP\Files\UploadedFile::$20230619072542d1ad39330e
+in APPPATH/Controllers/FellingTree.php on line 247.
+ 1 APPPATH/Controllers/FellingTree.php(247): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->inspectionReportAction()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-19 07:25:50 --> Cannot access protected property CodeIgniter\HTTP\Files\UploadedFile::$name
+in APPPATH/Controllers/FellingTree.php on line 247.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->inspectionReportAction()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-19 07:26:14 --> Undefined property: CodeIgniter\HTTP\Files\UploadedFile::$20230619072614b46f21bfc5
+in APPPATH/Controllers/FellingTree.php on line 247.
+ 1 APPPATH/Controllers/FellingTree.php(247): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->inspectionReportAction()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-19 07:32:53 --> Undefined variable: newName
+in APPPATH/Controllers/FellingTree.php on line 250.
+ 1 APPPATH/Controllers/FellingTree.php(250): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->inspectionReportAction()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-19 07:34:27 --> syntax error, unexpected '}', expecting identifier (T_STRING)
+in APPPATH/Controllers/FellingTree.php on line 307.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 [internal function]: spl_autoload_call()
+ 5 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-19 07:34:42 --> Call to undefined method CodeIgniter\HTTP\Files\UploadedFile::changeFileName()
+in APPPATH/Controllers/FellingTree.php on line 247.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->inspectionReportAction()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-19 07:37:31 --> Call to undefined method CodeIgniter\HTTP\Files\UploadedFile::date()
+in APPPATH/Controllers/FellingTree.php on line 247.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->inspectionReportAction()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-19 07:37:37 --> Call to undefined method CodeIgniter\HTTP\Files\UploadedFile::date()
+in APPPATH/Controllers/FellingTree.php on line 247.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->inspectionReportAction()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-19 07:38:12 --> Call to undefined method CodeIgniter\HTTP\Files\UploadedFile::date()
+in APPPATH/Controllers/FellingTree.php on line 247.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->inspectionReportAction()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-19 07:50:39 --> There is no data to insert.
+in SYSTEMPATH/BaseModel.php on line 762.
+ 1 SYSTEMPATH/BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert()
+ 3 APPPATH/Controllers/FellingTree.php(267): CodeIgniter\Model->insert()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->inspectionReportAction()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-19 12:04:07 --> Call to undefined method App\Models\FeelingTreeModel::whereNot
+in SYSTEMPATH/Model.php on line 842.
+ 1 APPPATH/Controllers/FellingTree.php(287): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->approvedRejectedApplications()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-19 12:25:49 --> preg_match() expects parameter 2 to be string, array given
+in APPPATH/Controllers/FellingTree.php on line 63.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/FellingTree.php(63): preg_match()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,45 @@
+CRITICAL - 2023-05-09 07:56:01 --> Undefined variable: result
+in APPPATH/Controllers/FellingTree.php on line 64.
+ 1 APPPATH/Controllers/FellingTree.php(64): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 08:19:31 --> syntax error, unexpected ')'
+in APPPATH/Controllers/FellingTree.php on line 76.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 [internal function]: spl_autoload_call()
+ 5 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 08:19:53 --> Argument 1 passed to CodeIgniter\BaseModel::insertBatch() must be of the type array or null, object given, called in /var/www/html/eservices/app/Controllers/FellingTree.php on line 71
+in SYSTEMPATH/BaseModel.php on line 818.
+ 1 APPPATH/Controllers/FellingTree.php(71): CodeIgniter\BaseModel->insertBatch()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 08:55:33 --> Argument 1 passed to CodeIgniter\BaseModel::insertBatch() must be of the type array or null, object given, called in /var/www/html/eservices/app/Controllers/FellingTree.php on line 72
+in SYSTEMPATH/BaseModel.php on line 818.
+ 1 APPPATH/Controllers/FellingTree.php(72): CodeIgniter\BaseModel->insertBatch()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 09:02:19 --> Argument 1 passed to CodeIgniter\BaseModel::insertBatch() must be of the type array or null, object given, called in /var/www/html/eservices/app/Controllers/FellingTree.php on line 72
+in SYSTEMPATH/BaseModel.php on line 818.
+ 1 APPPATH/Controllers/FellingTree.php(72): CodeIgniter\BaseModel->insertBatch()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-09 09:31:49 --> Argument 1 passed to CodeIgniter\BaseModel::insertBatch() must be of the type array or null, object given, called in /var/www/html/eservices/app/Controllers/FellingTree.php on line 72
+in SYSTEMPATH/BaseModel.php on line 818.
+ 1 APPPATH/Controllers/FellingTree.php(72): CodeIgniter\BaseModel->insertBatch()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()

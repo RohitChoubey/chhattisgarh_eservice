@@ -1,0 +1,35 @@
+CRITICAL - 2023-05-19 06:36:45 --> Call to undefined method App\Models\FeelingTreeModel::getResult
+in SYSTEMPATH/Model.php on line 842.
+ 1 APPPATH/Controllers/FellingTree.php(107): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->getTreeFeelingRecords()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 06:37:19 --> Call to undefined method App\Models\FeelingTreeModel::getResult
+in SYSTEMPATH/Model.php on line 842.
+ 1 APPPATH/Controllers/FellingTree.php(107): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->getTreeFeelingRecords()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 06:41:57 --> Call to undefined method App\Models\FeelingTreeModel::getResult
+in SYSTEMPATH/Model.php on line 842.
+ 1 APPPATH/Controllers/FellingTree.php(107): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->getTreeFeelingRecords()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 06:42:25 --> Call to undefined method App\Models\FeelingTreeModel::getResult
+in SYSTEMPATH/Model.php on line 842.
+ 1 APPPATH/Controllers/FellingTree.php(107): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->getTreeFeelingRecords()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-19 06:42:59 --> Call to undefined method App\Models\FeelingTreeModel::getResult
+in SYSTEMPATH/Model.php on line 842.
+ 1 APPPATH/Controllers/FellingTree.php(107): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->getTreeFeelingRecords()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()

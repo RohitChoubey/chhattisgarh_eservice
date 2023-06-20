@@ -1,0 +1,197 @@
+CRITICAL - 2023-05-04 04:51:03 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/FellingTree.php on line 31.
+ 1 APPPATH/Controllers/FellingTree.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 05:26:36 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/FellingTree.php on line 31.
+ 1 APPPATH/Controllers/FellingTree.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 05:27:03 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/FellingTree.php on line 31.
+ 1 APPPATH/Controllers/FellingTree.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 06:48:37 --> syntax error, unexpected 'echo' (T_ECHO)
+in APPPATH/Controllers/FellingTree.php on line 58.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 [internal function]: spl_autoload_call()
+ 5 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 06:49:02 --> You cannot use "getCompiledSelect()" in "App\Models\FeelingTreeModel". This is a method of the Query Builder Class.
+in SYSTEMPATH/Model.php on line 858.
+ 1 SYSTEMPATH/Model.php(858): CodeIgniter\Exceptions\ModelException::forMethodNotAvailable()
+ 2 SYSTEMPATH/Model.php(838): CodeIgniter\Model->checkBuilderMethod()
+ 3 APPPATH/Controllers/FellingTree.php(36): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 06:49:12 --> You cannot use "getCompiledSelect()" in "App\Models\FeelingTreeModel". This is a method of the Query Builder Class.
+in SYSTEMPATH/Model.php on line 858.
+ 1 SYSTEMPATH/Model.php(858): CodeIgniter\Exceptions\ModelException::forMethodNotAvailable()
+ 2 SYSTEMPATH/Model.php(838): CodeIgniter\Model->checkBuilderMethod()
+ 3 APPPATH/Controllers/FellingTree.php(36): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 06:50:12 --> Undefined variable: builder
+in APPPATH/Controllers/FellingTree.php on line 37.
+ 1 APPPATH/Controllers/FellingTree.php(37): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 06:50:23 --> Undefined variable: builder
+in APPPATH/Controllers/FellingTree.php on line 38.
+ 1 APPPATH/Controllers/FellingTree.php(38): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-04 06:50:33 --> mysqli_sql_exception: Table 'forest.feeling_tree' doesn't exist in /var/www/html/eservices/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/html/eservices/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/html/eservices/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/eservices/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/eservices/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/eservices/system/Model.php(840): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/eservices/app/Controllers/FellingTree.php(38): CodeIgniter\Model->__call()
+#6 /var/www/html/eservices/system/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+#7 /var/www/html/eservices/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/eservices/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/eservices/index.php(68): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-04 06:50:33 --> Table 'forest.feeling_tree' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(840): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/FellingTree.php(38): CodeIgniter\Model->__call()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-04 06:51:02 --> mysqli_sql_exception: Table 'forest.feeling_trees' doesn't exist in /var/www/html/eservices/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/html/eservices/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/html/eservices/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/eservices/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/eservices/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/eservices/system/Model.php(840): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/eservices/app/Controllers/FellingTree.php(38): CodeIgniter\Model->__call()
+#6 /var/www/html/eservices/system/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+#7 /var/www/html/eservices/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/eservices/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/eservices/index.php(68): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-04 06:51:02 --> Table 'forest.feeling_trees' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(840): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/FellingTree.php(38): CodeIgniter\Model->__call()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 07:16:48 --> Array to string conversion
+in APPPATH/Controllers/FellingTree.php on line 44.
+ 1 APPPATH/Controllers/FellingTree.php(44): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 07:17:47 --> Undefined index: SRN
+in APPPATH/Controllers/FellingTree.php on line 45.
+ 1 APPPATH/Controllers/FellingTree.php(45): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 07:19:34 --> There is no data to insert.
+in SYSTEMPATH/BaseModel.php on line 762.
+ 1 SYSTEMPATH/BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert()
+ 3 APPPATH/Controllers/FellingTree.php(64): CodeIgniter\Model->insert()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 12:14:27 --> Undefined index: SRN
+in APPPATH/Controllers/FellingTree.php on line 43.
+ 1 APPPATH/Controllers/FellingTree.php(43): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 12:15:10 --> Call to undefined method App\Models\FeelingTreeModel::getResult
+in SYSTEMPATH/Model.php on line 842.
+ 1 APPPATH/Controllers/FellingTree.php(37): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 12:15:50 --> You cannot use "getCompiledSelect()" in "App\Models\FeelingTreeModel". This is a method of the Query Builder Class.
+in SYSTEMPATH/Model.php on line 858.
+ 1 SYSTEMPATH/Model.php(858): CodeIgniter\Exceptions\ModelException::forMethodNotAvailable()
+ 2 SYSTEMPATH/Model.php(838): CodeIgniter\Model->checkBuilderMethod()
+ 3 APPPATH/Controllers/FellingTree.php(37): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 12:17:00 --> Call to undefined method App\Models\FeelingTreeModel::all
+in SYSTEMPATH/Model.php on line 842.
+ 1 APPPATH/Controllers/FellingTree.php(38): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 12:17:30 --> A non-numeric value encountered
+in APPPATH/Controllers/FellingTree.php on line 44.
+ 1 APPPATH/Controllers/FellingTree.php(44): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 12:18:11 --> A non-numeric value encountered
+in APPPATH/Controllers/FellingTree.php on line 44.
+ 1 APPPATH/Controllers/FellingTree.php(44): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 12:21:46 --> syntax error, unexpected '1' (T_LNUMBER)
+in APPPATH/Controllers/FellingTree.php on line 48.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 [internal function]: spl_autoload_call()
+ 5 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-04 12:36:54 --> A non-numeric value encountered
+in APPPATH/Controllers/FellingTree.php on line 47.
+ 1 APPPATH/Controllers/FellingTree.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()

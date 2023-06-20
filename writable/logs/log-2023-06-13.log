@@ -1,0 +1,58 @@
+ERROR - 2023-06-13 11:43:15 --> mysqli_sql_exception: Unknown column 'tree_feling_id' in 'field list' in /var/www/html/eservices/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/html/eservices/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/html/eservices/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/eservices/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/eservices/system/Database/BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/eservices/system/Database/BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute()
+#5 /var/www/html/eservices/system/Model.php(364): CodeIgniter\Database\BaseBuilder->insertBatch()
+#6 /var/www/html/eservices/system/BaseModel.php(874): CodeIgniter\Model->doInsertBatch()
+#7 /var/www/html/eservices/app/Controllers/FellingTree.php(83): CodeIgniter\BaseModel->insertBatch()
+#8 /var/www/html/eservices/system/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+#9 /var/www/html/eservices/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/html/eservices/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/html/eservices/index.php(68): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-13 11:43:15 --> Unknown column 'tree_feling_id' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute()
+ 6 SYSTEMPATH/Model.php(364): CodeIgniter\Database\BaseBuilder->insertBatch()
+ 7 SYSTEMPATH/BaseModel.php(874): CodeIgniter\Model->doInsertBatch()
+ 8 APPPATH/Controllers/FellingTree.php(83): CodeIgniter\BaseModel->insertBatch()
+ 9 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+10 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-13 12:05:45 --> mysqli_sql_exception: Unknown column 'tree_feling_id' in 'field list' in /var/www/html/eservices/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /var/www/html/eservices/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /var/www/html/eservices/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/eservices/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/eservices/system/Database/BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/eservices/system/Database/BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute()
+#5 /var/www/html/eservices/system/Model.php(364): CodeIgniter\Database\BaseBuilder->insertBatch()
+#6 /var/www/html/eservices/system/BaseModel.php(874): CodeIgniter\Model->doInsertBatch()
+#7 /var/www/html/eservices/app/Controllers/FellingTree.php(83): CodeIgniter\BaseModel->insertBatch()
+#8 /var/www/html/eservices/system/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+#9 /var/www/html/eservices/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/html/eservices/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/html/eservices/index.php(68): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-13 12:05:45 --> Unknown column 'tree_feling_id' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute()
+ 6 SYSTEMPATH/Model.php(364): CodeIgniter\Database\BaseBuilder->insertBatch()
+ 7 SYSTEMPATH/BaseModel.php(874): CodeIgniter\Model->doInsertBatch()
+ 8 APPPATH/Controllers/FellingTree.php(83): CodeIgniter\BaseModel->insertBatch()
+ 9 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\FellingTree->insertFellingTrees()
+10 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(68): CodeIgniter\CodeIgniter->run()
